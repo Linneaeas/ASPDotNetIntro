@@ -31,3 +31,4 @@
 /Users/jasmine/ASPDotNetIntro/obj/Debug/net8.0/ASPDotNetIntro.pdb
 /Users/jasmine/ASPDotNetIntro/obj/Debug/net8.0/ASPDotNetIntro.genruntimeconfig.cache
 /Users/jasmine/ASPDotNetIntro/obj/Debug/net8.0/ref/ASPDotNetIntro.dll
+/Users/jasmine/ASPDotNetIntro/obj/Debug/net8.0/ASPDotNetIntro.sourcelink.json
