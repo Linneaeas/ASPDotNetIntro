@@ -20,15 +20,27 @@ public class Program
 }
 
 
+public class User
+{
+    public string Name { get; set; }
+    public string Password { get; set; }
+
+    public User(string name, string password)
+    {
+        this.Name = name;
+        this.Password = password;
+    }
+}
+
 //Creates an endpoint: //GET /api/hej
 [ApiController]
 [Route("api")] //prefix for all endpoints
 public class MyController : ControllerBase
 {
     [HttpGet("hej")]//hej=extra route
-    public string Hello()
+    public User Hello()
     {
-        return "Hello World!";
+        return new User("Ironman", "tonystark123"); //DEFAULT JSON
     }
 }
 
